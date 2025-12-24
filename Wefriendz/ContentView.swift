@@ -6,19 +6,26 @@
 //
 
 import SwiftUI
+import PlatformKit
+import DesignSystem
 
 struct ContentView: View {
+    let features: [MicroFeature]
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            ForEach(Array(features.enumerated()), id: \.element.id) { _, feature in
+                feature
+                    .makeRootView()
+                    .tabItem {
+                        Image(uiImage: feature.tabIcon)
+                        Text(feature.title)
+                    }
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(features: [])
 }

@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		30B53A8F2EFC5EF3009EB585 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53A8E2EFC5EF3009EB585 /* DesignSystem */; };
+		30B53A922EFC5F03009EB585 /* PlatformKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53A912EFC5F03009EB585 /* PlatformKit */; };
+		30B53A952EFC5F13009EB585 /* FeedFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53A942EFC5F13009EB585 /* FeedFeature */; };
+		30B53A982EFC5F23009EB585 /* FriendsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53A972EFC5F23009EB585 /* FriendsFeature */; };
+		30B53A9B2EFC5F35009EB585 /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53A9A2EFC5F35009EB585 /* ProfileFeature */; };
+		30B53AAA2EFC5FC9009EB585 /* PlatformKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53AA92EFC5FC9009EB585 /* PlatformKit */; };
+		30B53AAD2EFC5FDE009EB585 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53AAC2EFC5FDE009EB585 /* DesignSystem */; };
+		30B53B8B2EFCA84D009EB585 /* FeedFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53B8A2EFCA84D009EB585 /* FeedFeature */; };
+		30B53B8E2EFCA860009EB585 /* FriendsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53B8D2EFCA860009EB585 /* FriendsFeature */; };
+		30B53B912EFCA871009EB585 /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53B902EFCA871009EB585 /* ProfileFeature */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		308B13222EF9C631006BF4EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +65,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B53B8E2EFCA860009EB585 /* FriendsFeature in Frameworks */,
+				30B53A952EFC5F13009EB585 /* FeedFeature in Frameworks */,
+				30B53A982EFC5F23009EB585 /* FriendsFeature in Frameworks */,
+				30B53AAD2EFC5FDE009EB585 /* DesignSystem in Frameworks */,
+				30B53B8B2EFCA84D009EB585 /* FeedFeature in Frameworks */,
+				30B53A922EFC5F03009EB585 /* PlatformKit in Frameworks */,
+				30B53A8F2EFC5EF3009EB585 /* DesignSystem in Frameworks */,
+				30B53AAA2EFC5FC9009EB585 /* PlatformKit in Frameworks */,
+				30B53A9B2EFC5F35009EB585 /* ProfileFeature in Frameworks */,
+				30B53B912EFCA871009EB585 /* ProfileFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,7 @@
 				308B13162EF9C630006BF4EB /* Wefriendz */,
 				308B13242EF9C631006BF4EB /* WefriendzTests */,
 				308B132E2EF9C631006BF4EB /* WefriendzUITests */,
+				308B14812EFB4E71006BF4EB /* Frameworks */,
 				308B13152EF9C630006BF4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +114,13 @@
 				308B132B2EF9C631006BF4EB /* WefriendzUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		308B14812EFB4E71006BF4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +143,16 @@
 			);
 			name = Wefriendz;
 			packageProductDependencies = (
+				30B53A8E2EFC5EF3009EB585 /* DesignSystem */,
+				30B53A912EFC5F03009EB585 /* PlatformKit */,
+				30B53A942EFC5F13009EB585 /* FeedFeature */,
+				30B53A972EFC5F23009EB585 /* FriendsFeature */,
+				30B53A9A2EFC5F35009EB585 /* ProfileFeature */,
+				30B53AA92EFC5FC9009EB585 /* PlatformKit */,
+				30B53AAC2EFC5FDE009EB585 /* DesignSystem */,
+				30B53B8A2EFCA84D009EB585 /* FeedFeature */,
+				30B53B8D2EFCA860009EB585 /* FriendsFeature */,
+				30B53B902EFCA871009EB585 /* ProfileFeature */,
 			);
 			productName = Wefriendz;
 			productReference = 308B13142EF9C630006BF4EB /* Wefriendz.app */;
@@ -196,11 +237,11 @@
 			mainGroup = 308B130B2EF9C630006BF4EB;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				308B14272EFA3F69006BF4EB /* XCRemoteSwiftPackageReference "PlatformKit" */,
-				308B14282EFA409F006BF4EB /* XCRemoteSwiftPackageReference "DesignSystem" */,
-				308B14292EFA40D1006BF4EB /* XCRemoteSwiftPackageReference "FeedFeature" */,
-				308B142A2EFA40FE006BF4EB /* XCRemoteSwiftPackageReference "FriendsFeature" */,
-				308B142B2EFA4126006BF4EB /* XCRemoteSwiftPackageReference "ProfileFeature" */,
+				30B53AA82EFC5FC9009EB585 /* XCRemoteSwiftPackageReference "PlatformKit" */,
+				30B53AAB2EFC5FDE009EB585 /* XCRemoteSwiftPackageReference "DesignSystem" */,
+				30B53B892EFCA84D009EB585 /* XCRemoteSwiftPackageReference "FeedFeature" */,
+				30B53B8C2EFCA860009EB585 /* XCRemoteSwiftPackageReference "FriendsFeature" */,
+				30B53B8F2EFCA871009EB585 /* XCRemoteSwiftPackageReference "ProfileFeature" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 308B13152EF9C630006BF4EB /* Products */;
@@ -579,15 +620,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		308B14272EFA3F69006BF4EB /* XCRemoteSwiftPackageReference "PlatformKit" */ = {
+		30B53AA82EFC5FC9009EB585 /* XCRemoteSwiftPackageReference "PlatformKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/PlatformKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
-		308B14282EFA409F006BF4EB /* XCRemoteSwiftPackageReference "DesignSystem" */ = {
+		30B53AAB2EFC5FDE009EB585 /* XCRemoteSwiftPackageReference "DesignSystem" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/DesignSystem.git";
 			requirement = {
@@ -595,31 +636,79 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		308B14292EFA40D1006BF4EB /* XCRemoteSwiftPackageReference "FeedFeature" */ = {
+		30B53B892EFCA84D009EB585 /* XCRemoteSwiftPackageReference "FeedFeature" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/FeedFeature.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
-		308B142A2EFA40FE006BF4EB /* XCRemoteSwiftPackageReference "FriendsFeature" */ = {
+		30B53B8C2EFCA860009EB585 /* XCRemoteSwiftPackageReference "FriendsFeature" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/FriendsFeature.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
-		308B142B2EFA4126006BF4EB /* XCRemoteSwiftPackageReference "ProfileFeature" */ = {
+		30B53B8F2EFCA871009EB585 /* XCRemoteSwiftPackageReference "ProfileFeature" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/ProfileFeature.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30B53A8E2EFC5EF3009EB585 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		30B53A912EFC5F03009EB585 /* PlatformKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PlatformKit;
+		};
+		30B53A942EFC5F13009EB585 /* FeedFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeedFeature;
+		};
+		30B53A972EFC5F23009EB585 /* FriendsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FriendsFeature;
+		};
+		30B53A9A2EFC5F35009EB585 /* ProfileFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProfileFeature;
+		};
+		30B53AA92EFC5FC9009EB585 /* PlatformKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B53AA82EFC5FC9009EB585 /* XCRemoteSwiftPackageReference "PlatformKit" */;
+			productName = PlatformKit;
+		};
+		30B53AAC2EFC5FDE009EB585 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B53AAB2EFC5FDE009EB585 /* XCRemoteSwiftPackageReference "DesignSystem" */;
+			productName = DesignSystem;
+		};
+		30B53B8A2EFCA84D009EB585 /* FeedFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B53B892EFCA84D009EB585 /* XCRemoteSwiftPackageReference "FeedFeature" */;
+			productName = FeedFeature;
+		};
+		30B53B8D2EFCA860009EB585 /* FriendsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B53B8C2EFCA860009EB585 /* XCRemoteSwiftPackageReference "FriendsFeature" */;
+			productName = FriendsFeature;
+		};
+		30B53B902EFCA871009EB585 /* ProfileFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B53B8F2EFCA871009EB585 /* XCRemoteSwiftPackageReference "ProfileFeature" */;
+			productName = ProfileFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 308B130C2EF9C630006BF4EB /* Project object */;
 }
