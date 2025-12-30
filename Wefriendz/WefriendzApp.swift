@@ -15,10 +15,11 @@ import ProfileFeature
 @main
 struct WefriendzApp: App {
     let analytics = AnalyticsImpl()
+    let networking = NetworkingImpl()
     
-    let feedAPI = FeedFeatureAPIClient()
-    let friendsAPI = FriendsFeatureAPIClient()
-    let profileAPI = ProfileFeatureAPIClient()
+    let feedAPI: FeatureAPI
+    let friendsAPI: FeatureAPI
+    let profileAPI: FeatureAPI
 
     let feedDependencies: FeedDependenciesImpl
     let friendsDependencies: FriendsDependenciesImpl
@@ -31,9 +32,13 @@ struct WefriendzApp: App {
     let features: [MicroFeature]
     
     init() {
-        feedDependencies = FeedDependenciesImpl(feedAPI: feedAPI, analytics: analytics)
-        friendsDependencies = FriendsDependenciesImpl(friendsAPI: friendsAPI, analytics: analytics)
-        profileDependencies = ProfileDependenciesImpl(profileAPI: profileAPI, analytics: analytics)
+        feedAPI = FeedFeatureAPIClient(networking: networking)
+        friendsAPI = FriendsFeatureAPIClient(networking: networking)
+        profileAPI = ProfileFeatureAPIClient(networking: networking)
+
+        feedDependencies = FeedDependenciesImpl(feedAPI: feedAPI as! FeedFeatureAPI, analytics: analytics)
+        friendsDependencies = FriendsDependenciesImpl(friendsAPI: friendsAPI as! FriendsFeatureAPI, analytics: analytics)
+        profileDependencies = ProfileDependenciesImpl(profileAPI: profileAPI as! ProfileFeatureAPI, analytics: analytics)
         
         feedFactory = FeedFeatureFactory(dependencies: feedDependencies)
         friendsFactory = FriendsFeatureFactory(dependencies: friendsDependencies)

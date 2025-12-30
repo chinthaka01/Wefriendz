@@ -12,11 +12,15 @@
 		30B53A952EFC5F13009EB585 /* FeedFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53A942EFC5F13009EB585 /* FeedFeature */; };
 		30B53A982EFC5F23009EB585 /* FriendsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53A972EFC5F23009EB585 /* FriendsFeature */; };
 		30B53A9B2EFC5F35009EB585 /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53A9A2EFC5F35009EB585 /* ProfileFeature */; };
-		30B53AAA2EFC5FC9009EB585 /* PlatformKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53AA92EFC5FC9009EB585 /* PlatformKit */; };
 		30B53AAD2EFC5FDE009EB585 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53AAC2EFC5FDE009EB585 /* DesignSystem */; };
-		30B53B8B2EFCA84D009EB585 /* FeedFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53B8A2EFCA84D009EB585 /* FeedFeature */; };
-		30B53B8E2EFCA860009EB585 /* FriendsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53B8D2EFCA860009EB585 /* FriendsFeature */; };
-		30B53B912EFCA871009EB585 /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53B902EFCA871009EB585 /* ProfileFeature */; };
+		30B53C6C2F033EEB009EB585 /* PlatformKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53C6B2F033EEB009EB585 /* PlatformKit */; };
+		30B53C7B2F033F48009EB585 /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53C7A2F033F48009EB585 /* ProfileFeature */; };
+		30B53C7E2F033F65009EB585 /* FriendsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53C7D2F033F65009EB585 /* FriendsFeature */; };
+		30B53C812F033F7E009EB585 /* FeedFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30B53C802F033F7E009EB585 /* FeedFeature */; };
+		30F1EDA92F03451700871693 /* PlatformKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30F1EDA82F03451700871693 /* PlatformKit */; };
+		30F1EE0C2F036ABF00871693 /* FeedFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30F1EE0B2F036ABF00871693 /* FeedFeature */; };
+		30F1EE0F2F036ACD00871693 /* FriendsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30F1EE0E2F036ACD00871693 /* FriendsFeature */; };
+		30F1EE122F036ADE00871693 /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 30F1EE112F036ADE00871693 /* ProfileFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,16 +69,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B53B8E2EFCA860009EB585 /* FriendsFeature in Frameworks */,
+				30F1EDA92F03451700871693 /* PlatformKit in Frameworks */,
+				30B53C7E2F033F65009EB585 /* FriendsFeature in Frameworks */,
 				30B53A952EFC5F13009EB585 /* FeedFeature in Frameworks */,
+				30F1EE122F036ADE00871693 /* ProfileFeature in Frameworks */,
+				30F1EE0C2F036ABF00871693 /* FeedFeature in Frameworks */,
 				30B53A982EFC5F23009EB585 /* FriendsFeature in Frameworks */,
+				30B53C812F033F7E009EB585 /* FeedFeature in Frameworks */,
+				30F1EE0F2F036ACD00871693 /* FriendsFeature in Frameworks */,
 				30B53AAD2EFC5FDE009EB585 /* DesignSystem in Frameworks */,
-				30B53B8B2EFCA84D009EB585 /* FeedFeature in Frameworks */,
+				30B53C7B2F033F48009EB585 /* ProfileFeature in Frameworks */,
 				30B53A922EFC5F03009EB585 /* PlatformKit in Frameworks */,
 				30B53A8F2EFC5EF3009EB585 /* DesignSystem in Frameworks */,
-				30B53AAA2EFC5FC9009EB585 /* PlatformKit in Frameworks */,
 				30B53A9B2EFC5F35009EB585 /* ProfileFeature in Frameworks */,
-				30B53B912EFCA871009EB585 /* ProfileFeature in Frameworks */,
+				30B53C6C2F033EEB009EB585 /* PlatformKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,11 +156,15 @@
 				30B53A942EFC5F13009EB585 /* FeedFeature */,
 				30B53A972EFC5F23009EB585 /* FriendsFeature */,
 				30B53A9A2EFC5F35009EB585 /* ProfileFeature */,
-				30B53AA92EFC5FC9009EB585 /* PlatformKit */,
 				30B53AAC2EFC5FDE009EB585 /* DesignSystem */,
-				30B53B8A2EFCA84D009EB585 /* FeedFeature */,
-				30B53B8D2EFCA860009EB585 /* FriendsFeature */,
-				30B53B902EFCA871009EB585 /* ProfileFeature */,
+				30B53C6B2F033EEB009EB585 /* PlatformKit */,
+				30B53C7A2F033F48009EB585 /* ProfileFeature */,
+				30B53C7D2F033F65009EB585 /* FriendsFeature */,
+				30B53C802F033F7E009EB585 /* FeedFeature */,
+				30F1EDA82F03451700871693 /* PlatformKit */,
+				30F1EE0B2F036ABF00871693 /* FeedFeature */,
+				30F1EE0E2F036ACD00871693 /* FriendsFeature */,
+				30F1EE112F036ADE00871693 /* ProfileFeature */,
 			);
 			productName = Wefriendz;
 			productReference = 308B13142EF9C630006BF4EB /* Wefriendz.app */;
@@ -237,11 +249,11 @@
 			mainGroup = 308B130B2EF9C630006BF4EB;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				30B53AA82EFC5FC9009EB585 /* XCRemoteSwiftPackageReference "PlatformKit" */,
 				30B53AAB2EFC5FDE009EB585 /* XCRemoteSwiftPackageReference "DesignSystem" */,
-				30B53B892EFCA84D009EB585 /* XCRemoteSwiftPackageReference "FeedFeature" */,
-				30B53B8C2EFCA860009EB585 /* XCRemoteSwiftPackageReference "FriendsFeature" */,
-				30B53B8F2EFCA871009EB585 /* XCRemoteSwiftPackageReference "ProfileFeature" */,
+				30F1EDA72F03451700871693 /* XCRemoteSwiftPackageReference "PlatformKit" */,
+				30F1EE0A2F036ABF00871693 /* XCRemoteSwiftPackageReference "FeedFeature" */,
+				30F1EE0D2F036ACD00871693 /* XCRemoteSwiftPackageReference "FriendsFeature" */,
+				30F1EE102F036ADE00871693 /* XCRemoteSwiftPackageReference "ProfileFeature" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 308B13152EF9C630006BF4EB /* Products */;
@@ -628,14 +640,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		30B53AA82EFC5FC9009EB585 /* XCRemoteSwiftPackageReference "PlatformKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/chinthaka01/PlatformKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
-			};
-		};
 		30B53AAB2EFC5FDE009EB585 /* XCRemoteSwiftPackageReference "DesignSystem" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/DesignSystem.git";
@@ -644,28 +648,36 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		30B53B892EFCA84D009EB585 /* XCRemoteSwiftPackageReference "FeedFeature" */ = {
+		30F1EDA72F03451700871693 /* XCRemoteSwiftPackageReference "PlatformKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chinthaka01/PlatformKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+		30F1EE0A2F036ABF00871693 /* XCRemoteSwiftPackageReference "FeedFeature" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/FeedFeature.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.0.3;
 			};
 		};
-		30B53B8C2EFCA860009EB585 /* XCRemoteSwiftPackageReference "FriendsFeature" */ = {
+		30F1EE0D2F036ACD00871693 /* XCRemoteSwiftPackageReference "FriendsFeature" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/FriendsFeature.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.0.3;
 			};
 		};
-		30B53B8F2EFCA871009EB585 /* XCRemoteSwiftPackageReference "ProfileFeature" */ = {
+		30F1EE102F036ADE00871693 /* XCRemoteSwiftPackageReference "ProfileFeature" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chinthaka01/ProfileFeature.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -691,29 +703,45 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = ProfileFeature;
 		};
-		30B53AA92EFC5FC9009EB585 /* PlatformKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 30B53AA82EFC5FC9009EB585 /* XCRemoteSwiftPackageReference "PlatformKit" */;
-			productName = PlatformKit;
-		};
 		30B53AAC2EFC5FDE009EB585 /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 30B53AAB2EFC5FDE009EB585 /* XCRemoteSwiftPackageReference "DesignSystem" */;
 			productName = DesignSystem;
 		};
-		30B53B8A2EFCA84D009EB585 /* FeedFeature */ = {
+		30B53C6B2F033EEB009EB585 /* PlatformKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 30B53B892EFCA84D009EB585 /* XCRemoteSwiftPackageReference "FeedFeature" */;
-			productName = FeedFeature;
+			productName = PlatformKit;
 		};
-		30B53B8D2EFCA860009EB585 /* FriendsFeature */ = {
+		30B53C7A2F033F48009EB585 /* ProfileFeature */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 30B53B8C2EFCA860009EB585 /* XCRemoteSwiftPackageReference "FriendsFeature" */;
+			productName = ProfileFeature;
+		};
+		30B53C7D2F033F65009EB585 /* FriendsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = FriendsFeature;
 		};
-		30B53B902EFCA871009EB585 /* ProfileFeature */ = {
+		30B53C802F033F7E009EB585 /* FeedFeature */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 30B53B8F2EFCA871009EB585 /* XCRemoteSwiftPackageReference "ProfileFeature" */;
+			productName = FeedFeature;
+		};
+		30F1EDA82F03451700871693 /* PlatformKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30F1EDA72F03451700871693 /* XCRemoteSwiftPackageReference "PlatformKit" */;
+			productName = PlatformKit;
+		};
+		30F1EE0B2F036ABF00871693 /* FeedFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30F1EE0A2F036ABF00871693 /* XCRemoteSwiftPackageReference "FeedFeature" */;
+			productName = FeedFeature;
+		};
+		30F1EE0E2F036ACD00871693 /* FriendsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30F1EE0D2F036ACD00871693 /* XCRemoteSwiftPackageReference "FriendsFeature" */;
+			productName = FriendsFeature;
+		};
+		30F1EE112F036ADE00871693 /* ProfileFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30F1EE102F036ADE00871693 /* XCRemoteSwiftPackageReference "ProfileFeature" */;
 			productName = ProfileFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
