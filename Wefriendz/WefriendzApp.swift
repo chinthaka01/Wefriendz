@@ -53,7 +53,7 @@ struct WefriendzApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(features: features)
+            ContentView(features: features, analytics: analytics)
         }
     }
 }
