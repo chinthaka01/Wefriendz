@@ -100,16 +100,16 @@ This keeps the shell focused, while allowing each micro‑feature to evolve inde
 
 ## The Other Related Repositories
 
-### Shared contracts:
+### Shared Contracts:
 PlatformKit - https://github.com/chinthaka01/PlatformKit
 DesignSystem - https://github.com/chinthaka01/DesignSystem
 
-### Feature Modules:
+### Micro-Feature Modules:
 Feed Feature - https://github.com/chinthaka01/FeedFeature
 Friends Feature - https://github.com/chinthaka01/FriendsFeature
 Profile Feature - https://github.com/chinthaka01/ProfileFeature
 
-### Isolate Feature Testing Apps:
-Feed Feature Testing App - https://github.com/chinthaka01/FeedFeatureApp
-Friends Feature Testing App - https://github.com/chinthaka01/FriendsFeatureApp
-Profile Feature Testing App - https://github.com/chinthaka01/ProfileFeatureApp
+### Isolated Feature Apps:
+Feed Feature App - https://github.com/chinthaka01/FeedFeatureApp
+Friends Feature App - https://github.com/chinthaka01/FriendsFeatureApp
+Profile Feature App - https://github.com/chinthaka01/ProfileFeatureApp
