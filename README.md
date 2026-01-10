@@ -95,3 +95,21 @@ These modules are integrated as Swift packages (or local frameworks) and importe
   4. Appending `factory.makeFeature()` to the `features` array in `WefriendzApp`.
 
 This keeps the shell focused, while allowing each micro‑feature to evolve independently within a consistent platform.
+
+***
+
+## The Other Related Repositories
+
+### Shared contracts:
+PlatformKit - https://github.com/chinthaka01/PlatformKit
+DesignSystem - https://github.com/chinthaka01/DesignSystem
+
+### Feature Modules:
+Feed Feature - https://github.com/chinthaka01/FeedFeature
+Friends Feature - https://github.com/chinthaka01/FriendsFeature
+Profile Feature - https://github.com/chinthaka01/ProfileFeature
+
+### Isolate Feature Testing Apps:
+Feed Feature Testing App - https://github.com/chinthaka01/FeedFeatureApp
+Friends Feature Testing App - https://github.com/chinthaka01/FriendsFeatureApp
+Profile Feature Testing App - https://github.com/chinthaka01/ProfileFeatureApp
